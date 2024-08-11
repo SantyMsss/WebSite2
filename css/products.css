@@ -1,0 +1,147 @@
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin: 15px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+
+.oferta{
+    color: red;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+del{
+    color: black;
+    font-weight: 100;
+    
+
+}
+
+div > a >div{
+    color: transparent;
+}
+
+input[type="search"] {
+    text-decoration: none;
+    border: none;
+    border-bottom: solid 1px var( --color-gray);
+}
+
+input[type="search"]:focus {
+    outline: none;
+    border-bottom: solid 1px var(--color-gray);
+}
+
+#searchinfo > select{
+    border: none;
+    text-align: center; 
+    text-decoration: none;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#searchinfo > select > option{
+    text-align: right;
+}
+
+#searchinfo > select:focus > option{
+    text-align: center;
+    background-color: var(--color-gray);
+    border: solid 1px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+#imgs h3{
+    text-align: center;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    margin-bottom: 0px;
+    
+
+}
+
+#imgs a{
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+#imgs a h3 {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: max-width 0.5s ease, transform 1.3s ease, margin-left 0.0s ease, transition-delay 0.5s; 
+}
+
+#imgs a h3:active{
+    text-align: center;
+    position: relative;
+    white-space: normal;
+    text-overflow:hidden;
+    padding: 0; 
+    background-color: var(--color-gray); 
+    transform: translateY(-200px); 
+    transition-delay: 0s; 
+}
+
+
+
+
+
+
+#guia{
+    padding-left: 29.25%;
+}
+    
+
+
+
+
+#guia > li {
+   
+    list-style: none;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+#guia > li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+#guia > li a:hover {
+    color: var(--secondary-color);
+    padding: 5px 5px 5px 5px;
+    border: solid 2px black;
+
+
+}
+
+
+#guia > li a:focus {
+    border: solid 1px black;
+    padding: 5px 10px 5px 10px;
+
+}
+
+#imgs a {
+    text-align: center;
+}
+
+
+
+
